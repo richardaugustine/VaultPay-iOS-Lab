@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792657FC2F3CF44100B40435 /* DemoBackupFile.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 792657FB2F3CF44100B40435 /* DemoBackupFile.swift .swift */; };
+		7929B0EE2F3C36520094E746 /* TransactionsView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7929B0ED2F3C36520094E746 /* TransactionsView .swift */; };
+		7935F3B82F3B428000176CCD /* AdminDashboardView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F3B72F3B428000176CCD /* AdminDashboardView .swift */; };
+		7935F3BA2F3B482800176CCD /* DummyUser.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F3B92F3B482800176CCD /* DummyUser.swift .swift */; };
+		7935F3BC2F3B485400176CCD /* NetworkManager.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F3BB2F3B485400176CCD /* NetworkManager.swift .swift */; };
+		7935F3BE2F3B496A00176CCD /* UserResponse.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935F3BD2F3B496A00176CCD /* UserResponse.swift .swift */; };
+		79548D422F3C74A600C137FB /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79548D412F3C74A600C137FB /* WalletView.swift */; };
+		79B9C4B62F3B8CD100B2437D /* FakeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9C4B52F3B8CD100B2437D /* FakeAPI.swift */; };
+		79C34F6C2F39B7DC003FE976 /* appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C34F6B2F39B7DC003FE976 /* appApp.swift */; };
+		79C34F6E2F39B7DC003FE976 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C34F6D2F39B7DC003FE976 /* ContentView.swift */; };
+		79C34F702F39B7DE003FE976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C34F6F2F39B7DE003FE976 /* Assets.xcassets */; };
+		79C34F732F39B7DE003FE976 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C34F722F39B7DE003FE976 /* Preview Assets.xcassets */; };
+		79C34F7D2F39B7DE003FE976 /* appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C34F7C2F39B7DE003FE976 /* appTests.swift */; };
+		79C34F872F39B7DE003FE976 /* appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C34F862F39B7DE003FE976 /* appUITests.swift */; };
+		79C34F892F39B7DE003FE976 /* appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C34F882F39B7DE003FE976 /* appUITestsLaunchTests.swift */; };
+		79C34F9B2F39C61C003FE976 /* SecurityManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C34F9A2F39C61C003FE976 /* SecurityManager .swift */; };
+		79C34F9D2F39C6FC003FE976 /* AccessDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C34F9C2F39C6FC003FE976 /* AccessDeniedView.swift */; };
+		79C84F712F3AFA7D00010BCA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C84F702F3AFA7D00010BCA /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79C34F792F39B7DE003FE976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C34F602F39B7DC003FE976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C34F672F39B7DC003FE976;
+			remoteInfo = app;
+		};
+		79C34F832F39B7DE003FE976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C34F602F39B7DC003FE976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C34F672F39B7DC003FE976;
+			remoteInfo = app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		792657FB2F3CF44100B40435 /* DemoBackupFile.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DemoBackupFile.swift .swift"; sourceTree = "<group>"; };
+		7929B0ED2F3C36520094E746 /* TransactionsView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionsView .swift"; sourceTree = "<group>"; };
+		7935F3B72F3B428000176CCD /* AdminDashboardView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdminDashboardView .swift"; sourceTree = "<group>"; };
+		7935F3B92F3B482800176CCD /* DummyUser.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DummyUser.swift .swift"; sourceTree = "<group>"; };
+		7935F3BB2F3B485400176CCD /* NetworkManager.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager.swift .swift"; sourceTree = "<group>"; };
+		7935F3BD2F3B496A00176CCD /* UserResponse.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserResponse.swift .swift"; sourceTree = "<group>"; };
+		79548D412F3C74A600C137FB /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		79B9C4B52F3B8CD100B2437D /* FakeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAPI.swift; sourceTree = "<group>"; };
+		79C34F682F39B7DC003FE976 /* Vaultpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaultpay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C34F6B2F39B7DC003FE976 /* appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appApp.swift; sourceTree = "<group>"; };
+		79C34F6D2F39B7DC003FE976 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79C34F6F2F39B7DE003FE976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79C34F722F39B7DE003FE976 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79C34F782F39B7DE003FE976 /* VaultpayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaultpayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C34F7C2F39B7DE003FE976 /* appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTests.swift; sourceTree = "<group>"; };
+		79C34F822F39B7DE003FE976 /* VaultpayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaultpayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C34F862F39B7DE003FE976 /* appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appUITests.swift; sourceTree = "<group>"; };
+		79C34F882F39B7DE003FE976 /* appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79C34F952F39C02C003FE976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		79C34F9A2F39C61C003FE976 /* SecurityManager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecurityManager .swift"; sourceTree = "<group>"; };
+		79C34F9C2F39C6FC003FE976 /* AccessDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessDeniedView.swift; sourceTree = "<group>"; };
+		79C84F702F3AFA7D00010BCA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C34F652F39B7DC003FE976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C34F752F39B7DE003FE976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C34F7F2F39B7DE003FE976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79C34F5F2F39B7DC003FE976 = {
+			isa = PBXGroup;
+			children = (
+				79C34F6A2F39B7DC003FE976 /* app */,
+				79C34F7B2F39B7DE003FE976 /* appTests */,
+				79C34F852F39B7DE003FE976 /* appUITests */,
+				79C34F692F39B7DC003FE976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79C34F692F39B7DC003FE976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79C34F682F39B7DC003FE976 /* Vaultpay.app */,
+				79C34F782F39B7DE003FE976 /* VaultpayTests.xctest */,
+				79C34F822F39B7DE003FE976 /* VaultpayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C34F6A2F39B7DC003FE976 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				79C34F952F39C02C003FE976 /* Info.plist */,
+				79C34F6B2F39B7DC003FE976 /* appApp.swift */,
+				79C34F6D2F39B7DC003FE976 /* ContentView.swift */,
+				79C34F6F2F39B7DE003FE976 /* Assets.xcassets */,
+				79C34F712F39B7DE003FE976 /* Preview Content */,
+				79C34F9A2F39C61C003FE976 /* SecurityManager .swift */,
+				79C34F9C2F39C6FC003FE976 /* AccessDeniedView.swift */,
+				79C84F702F3AFA7D00010BCA /* LoginView.swift */,
+				7935F3B72F3B428000176CCD /* AdminDashboardView .swift */,
+				7935F3B92F3B482800176CCD /* DummyUser.swift .swift */,
+				7935F3BB2F3B485400176CCD /* NetworkManager.swift .swift */,
+				7935F3BD2F3B496A00176CCD /* UserResponse.swift .swift */,
+				79B9C4B52F3B8CD100B2437D /* FakeAPI.swift */,
+				7929B0ED2F3C36520094E746 /* TransactionsView .swift */,
+				79548D412F3C74A600C137FB /* WalletView.swift */,
+				792657FB2F3CF44100B40435 /* DemoBackupFile.swift .swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		79C34F712F39B7DE003FE976 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79C34F722F39B7DE003FE976 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79C34F7B2F39B7DE003FE976 /* appTests */ = {
+			isa = PBXGroup;
+			children = (
+				79C34F7C2F39B7DE003FE976 /* appTests.swift */,
+			);
+			path = appTests;
+			sourceTree = "<group>";
+		};
+		79C34F852F39B7DE003FE976 /* appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79C34F862F39B7DE003FE976 /* appUITests.swift */,
+				79C34F882F39B7DE003FE976 /* appUITestsLaunchTests.swift */,
+			);
+			path = appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79C34F672F39B7DC003FE976 /* Vaultpay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C34F8C2F39B7DE003FE976 /* Build configuration list for PBXNativeTarget "Vaultpay" */;
+			buildPhases = (
+				79C34F642F39B7DC003FE976 /* Sources */,
+				79C34F652F39B7DC003FE976 /* Frameworks */,
+				79C34F662F39B7DC003FE976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vaultpay;
+			productName = app;
+			productReference = 79C34F682F39B7DC003FE976 /* Vaultpay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79C34F772F39B7DE003FE976 /* VaultpayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C34F8F2F39B7DE003FE976 /* Build configuration list for PBXNativeTarget "VaultpayTests" */;
+			buildPhases = (
+				79C34F742F39B7DE003FE976 /* Sources */,
+				79C34F752F39B7DE003FE976 /* Frameworks */,
+				79C34F762F39B7DE003FE976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C34F7A2F39B7DE003FE976 /* PBXTargetDependency */,
+			);
+			name = VaultpayTests;
+			productName = appTests;
+			productReference = 79C34F782F39B7DE003FE976 /* VaultpayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79C34F812F39B7DE003FE976 /* VaultpayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C34F922F39B7DE003FE976 /* Build configuration list for PBXNativeTarget "VaultpayUITests" */;
+			buildPhases = (
+				79C34F7E2F39B7DE003FE976 /* Sources */,
+				79C34F7F2F39B7DE003FE976 /* Frameworks */,
+				79C34F802F39B7DE003FE976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C34F842F39B7DE003FE976 /* PBXTargetDependency */,
+			);
+			name = VaultpayUITests;
+			productName = appUITests;
+			productReference = 79C34F822F39B7DE003FE976 /* VaultpayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C34F602F39B7DC003FE976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					79C34F672F39B7DC003FE976 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					79C34F772F39B7DE003FE976 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 79C34F672F39B7DC003FE976;
+					};
+					79C34F812F39B7DE003FE976 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 79C34F672F39B7DC003FE976;
+					};
+				};
+			};
+			buildConfigurationList = 79C34F632F39B7DC003FE976 /* Build configuration list for PBXProject "Vaultpay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79C34F5F2F39B7DC003FE976;
+			productRefGroup = 79C34F692F39B7DC003FE976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C34F672F39B7DC003FE976 /* Vaultpay */,
+				79C34F772F39B7DE003FE976 /* VaultpayTests */,
+				79C34F812F39B7DE003FE976 /* VaultpayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79C34F662F39B7DC003FE976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C34F732F39B7DE003FE976 /* Preview Assets.xcassets in Resources */,
+				79C34F702F39B7DE003FE976 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C34F762F39B7DE003FE976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C34F802F39B7DE003FE976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C34F642F39B7DC003FE976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C34F6E2F39B7DC003FE976 /* ContentView.swift in Sources */,
+				79C34F6C2F39B7DC003FE976 /* appApp.swift in Sources */,
+				79C34F9B2F39C61C003FE976 /* SecurityManager .swift in Sources */,
+				7929B0EE2F3C36520094E746 /* TransactionsView .swift in Sources */,
+				79C84F712F3AFA7D00010BCA /* LoginView.swift in Sources */,
+				7935F3B82F3B428000176CCD /* AdminDashboardView .swift in Sources */,
+				79C34F9D2F39C6FC003FE976 /* AccessDeniedView.swift in Sources */,
+				792657FC2F3CF44100B40435 /* DemoBackupFile.swift .swift in Sources */,
+				7935F3BC2F3B485400176CCD /* NetworkManager.swift .swift in Sources */,
+				79B9C4B62F3B8CD100B2437D /* FakeAPI.swift in Sources */,
+				7935F3BE2F3B496A00176CCD /* UserResponse.swift .swift in Sources */,
+				7935F3BA2F3B482800176CCD /* DummyUser.swift .swift in Sources */,
+				79548D422F3C74A600C137FB /* WalletView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C34F742F39B7DE003FE976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C34F7D2F39B7DE003FE976 /* appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C34F7E2F39B7DE003FE976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C34F892F39B7DE003FE976 /* appUITestsLaunchTests.swift in Sources */,
+				79C34F872F39B7DE003FE976 /* appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79C34F7A2F39B7DE003FE976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C34F672F39B7DC003FE976 /* Vaultpay */;
+			targetProxy = 79C34F792F39B7DE003FE976 /* PBXContainerItemProxy */;
+		};
+		79C34F842F39B7DE003FE976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C34F672F39B7DC003FE976 /* Vaultpay */;
+			targetProxy = 79C34F832F39B7DE003FE976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79C34F8A2F39B7DE003FE976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79C34F8B2F39B7DE003FE976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79C34F8D2F39B7DE003FE976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"app/Preview Content\"";
+				DEVELOPMENT_TEAM = U4V2XWTR46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ric.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79C34F8E2F39B7DE003FE976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"app/Preview Content\"";
+				DEVELOPMENT_TEAM = U4V2XWTR46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ric.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79C34F902F39B7DE003FE976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ric.appTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaultpay.Vaultpay/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vaultpay";
+			};
+			name = Debug;
+		};
+		79C34F912F39B7DE003FE976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ric.appTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaultpay.Vaultpay/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vaultpay";
+			};
+			name = Release;
+		};
+		79C34F932F39B7DE003FE976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ric.appUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = app;
+			};
+			name = Debug;
+		};
+		79C34F942F39B7DE003FE976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ric.appUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C34F632F39B7DC003FE976 /* Build configuration list for PBXProject "Vaultpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C34F8A2F39B7DE003FE976 /* Debug */,
+				79C34F8B2F39B7DE003FE976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C34F8C2F39B7DE003FE976 /* Build configuration list for PBXNativeTarget "Vaultpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C34F8D2F39B7DE003FE976 /* Debug */,
+				79C34F8E2F39B7DE003FE976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C34F8F2F39B7DE003FE976 /* Build configuration list for PBXNativeTarget "VaultpayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C34F902F39B7DE003FE976 /* Debug */,
+				79C34F912F39B7DE003FE976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C34F922F39B7DE003FE976 /* Build configuration list for PBXNativeTarget "VaultpayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C34F932F39B7DE003FE976 /* Debug */,
+				79C34F942F39B7DE003FE976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C34F602F39B7DC003FE976 /* Project object */;
+}
