@@ -1,4 +1,3 @@
-Screenshots for VaultPay iOS Lab
 ## 📸 Screenshots
 
 ### Login Screen
